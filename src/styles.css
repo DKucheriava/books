@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+    padding-top: 70px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  
+  code {
+    font-size: 1.2em;
+  }
+  
+  ul {
+    padding-inline-start: 20px;
+  }
+  
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
+
+  .card-img-top {
+    height: 430px; 
+    object-fit: cover;
+  }
+
+  #book-cover {
+    height: 430px;
+    object-fit: contain;
+  }
+
+  .star-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    font-size: 24px;
+    color: gray;
+  }
+  
+  .star.full {
+    color: gold;
+  }
+  
+  .star.half {
+    color: gold;
+    background: linear-gradient(to right, gold 50%, gray 50%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+  }
+  
+  .star.empty {
+    color: lightgray;
+  }
+  
+  #comment-block {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .comment-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+ 
+    align-items: center;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .right-column {
+    align-content: center;
+    align-items: center;
+  }
+  
+  
+  .rating-container {
+    margin-top: 0.5rem; 
+  }
+  
+  .comment-text {
+    font-size: 1rem; 
+    color: #495057; 
+  }
+  
+  .user-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .rating-container .star-rating .star {
+    font-size: 1.2rem;
+    color: #ffc107;
+  }
+  
